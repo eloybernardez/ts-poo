@@ -2,7 +2,6 @@ import axios from "axios";
 import { Category } from "../models/category.model";
 import { Product } from "../models/product.model";
 import { UpdateProductDto } from "../dtos/product.dto";
-import { ProductCrudService } from "./product-crud.service";
 
 
 export class BaseHttpService<T> {
